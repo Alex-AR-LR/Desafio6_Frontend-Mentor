@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+  <link rel="stylesheet" href="scss/main.css">
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 class="header__title">Simple, traffic-based pricing</h1>
+      <p class="header__info">Sign-up for our 30-day trial. No credit card required.</p>
+    </header>
+    <article class="card">
+      <div class="card__subscription">
+        <h2 class="card__subscription__page">100k Pageviews</h2>
+        <div class="slider">
+          <input class="slider__range" type="range" min="0" max="4" value="2">
+          <div class="slider__progress"></div>
+        </div>
+        <p class="card__subscription__choose"><span class="card__subscription__choose__price">$16.00</span>/month</p>
+        <div class="membership">
+          <p class="membership__monthly">Monthly Billing</p>
+          <div class="switch">
+            <input id="switch" class="switch__checkbox" type="checkbox">
+            <label class="switch__slider" for="switch"></label>
+          </div>
+          <p class="membership__year">Yearly Billing<span class="discount">-25%</span></p>
+        </div>
+      </div>
+      
+      <footer class="card__info">
+        <ul class="benefits-list">
+          <li class="benefits-list__profit">
+            <img class="benefits-list__profit__icon" src="images/icon-check.svg" alt="acquired">
+            <p class="benefits-list__profit__paragraph">Unlimited websites</p>
+          </li>
+          <li class="benefits-list__profit">
+            <img class="benefits-list__profit__icon" src="images/icon-check.svg" alt="acquired">
+            <p class="benefits-list__profit__paragraph">100% data ownership</p>
+          </li>
+          <li class="benefits-list__profit">
+            <img class="benefits-list__profit__icon" src="images/icon-check.svg" alt="acquired">
+            <p class="benefits-list__profit__paragraph">Email reports</p>
+          </li>
+        </ul>
+        <div class="btn-center">
+          <a href="#" class="btn">Start my trial</a>
+        </div>
+      </footer>
+    </article>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Exequiel Flores</a>.
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+// @use 'variables';
+@import 'variables';
+
+/* Header */
+.header{
+    background: url(../images/pattern-circles.svg) no-repeat center/230px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    max-width: 500px;
+    margin: auto;
+    &__title{
+        font: 800 1.9rem/normal 'Manrope', sans-serif;
+        margin-bottom: 20px;
+        color: var(--Dark-Desaturated-Blue);
+        text-shadow: 0 0 1px var(--Dark-Desaturated-Blue);
+    }
+    &__info{
+        font: 600 1.2rem/35px 'Manrope', sans-serif;
+        padding: 0 3.7rem;
+        color: var(--Grayish-Blue);
+        text-shadow: 0 0 1px var(--Grayish-Blue);
+    }
+}
+/* Fin de Header */

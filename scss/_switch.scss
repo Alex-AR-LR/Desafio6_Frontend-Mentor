@@ -1,0 +1,40 @@
+// @use 'variables';
+@import 'variables';
+
+/* Inicio de Switch */
+.switch{
+    margin: 0 15px;
+    &__checkbox{
+        display: none;
+    }
+    &__slider{
+        cursor: pointer;
+        display: block;
+        width: 65px;
+        height: 35px;
+        border-radius: 100px;
+        background-color: var(--Light-Grayish-Blue);
+        position: relative;
+        transition: all 100ms ease-in-out;
+        &::after{
+            content: "";
+            width: 21px;
+            height: 21px;
+            border-radius: 50%;
+            background-color: #fff;
+            position: absolute;
+            top: 7px;
+            left: 7px;
+            transition: all 100ms ease-in-out;
+        }
+    }
+    &__checkbox:checked + &__slider::after{
+        left: 38px;
+    }
+
+    &__checkbox:checked + &__slider{
+        background-color: var(--Soft-Cyan);
+    }
+
+}
+/* Fin de switch */

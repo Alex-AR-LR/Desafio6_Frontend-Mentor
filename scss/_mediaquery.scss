@@ -1,0 +1,69 @@
+$desktop: 1440px;
+
+@mixin mq($size){
+    @media screen and (min-width: $size){
+        @content;
+    }
+}
+
+
+/* Desktop view */
+
+@include mq($desktop){
+    .card{
+        max-width: 800px;
+
+        &__subscription{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            row-gap: 1.5rem;
+
+            &__page{
+                grid-column: 1/2;
+                margin-bottom: 0;
+            }
+            &__choose{
+                grid-column: 2/3;
+                grid-row: 1/2;
+                margin-bottom: 0;
+            }
+        }
+        &__info{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+        }
+    }
+
+    .slider{
+        grid-column: span 2;
+        margin: 0;
+    }
+
+    .membership{
+        grid-column: span 2;
+    }
+
+    .discount{
+        &::after{
+            content: " discount";
+        }
+    }
+
+    .benefits-list{
+        &__profit{
+            justify-content: flex-start;
+            margin: 12px;
+        }
+    }
+
+    .btn-center{
+        justify-content: flex-end;
+        margin: 0;
+    }
+
+    .btn{
+        padding: 1rem 4rem;
+    }
+}

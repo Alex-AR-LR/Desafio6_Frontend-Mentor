@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap');
+
+// @use 'variables';
+@import 'variables';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(../images/bg-pattern.svg) var(--Very-Pale-Blue) no-repeat top/100% 580px;
+    padding: 2rem;
+}

@@ -1,0 +1,442 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap");
+:root {
+  /* Primary */
+  --Soft-Cyan: hsl(174, 77%, 80%);
+  --Strong-Cyan: hsl(174, 86%, 45%);
+  --Light-Grayish-Red: hsl(14, 92%, 95%);
+  --Light-Red: hsl(15, 100%, 70%);
+  --Pale-Blue: hsl(226, 100%, 87%);
+  /* Neutral */
+  --White: hsl(0, 0%, 100%);
+  --Very-Pale-Blue: hsl(230, 100%, 99%);
+  --Light-Grayish-BlueSlider: hsl(224, 65%, 95%);
+  --Light-Grayish-Blue: hsl(223, 50%, 87%);
+  --Grayish-Blue: hsl(225, 20%, 60%);
+  --Dark-Desaturated-Blue: hsl(227, 35%, 25%);
+}
+
+:root {
+  /* Primary */
+  --Soft-Cyan: hsl(174, 77%, 80%);
+  --Strong-Cyan: hsl(174, 86%, 45%);
+  --Light-Grayish-Red: hsl(14, 92%, 95%);
+  --Light-Red: hsl(15, 100%, 70%);
+  --Pale-Blue: hsl(226, 100%, 87%);
+  /* Neutral */
+  --White: hsl(0, 0%, 100%);
+  --Very-Pale-Blue: hsl(230, 100%, 99%);
+  --Light-Grayish-BlueSlider: hsl(224, 65%, 95%);
+  --Light-Grayish-Blue: hsl(223, 50%, 87%);
+  --Grayish-Blue: hsl(225, 20%, 60%);
+  --Dark-Desaturated-Blue: hsl(227, 35%, 25%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: url(../images/bg-pattern.svg) var(--Very-Pale-Blue) no-repeat top/100% 580px;
+  padding: 2rem;
+}
+
+:root {
+  /* Primary */
+  --Soft-Cyan: hsl(174, 77%, 80%);
+  --Strong-Cyan: hsl(174, 86%, 45%);
+  --Light-Grayish-Red: hsl(14, 92%, 95%);
+  --Light-Red: hsl(15, 100%, 70%);
+  --Pale-Blue: hsl(226, 100%, 87%);
+  /* Neutral */
+  --White: hsl(0, 0%, 100%);
+  --Very-Pale-Blue: hsl(230, 100%, 99%);
+  --Light-Grayish-BlueSlider: hsl(224, 65%, 95%);
+  --Light-Grayish-Blue: hsl(223, 50%, 87%);
+  --Grayish-Blue: hsl(225, 20%, 60%);
+  --Dark-Desaturated-Blue: hsl(227, 35%, 25%);
+}
+
+/* Targeta */
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.card__subscription {
+  border-bottom: 1px solid var(--Light-Grayish-Blue);
+  padding: 2rem;
+  text-align: center;
+  color: var(--Grayish-Blue);
+}
+
+.card__subscription__page {
+  font: 800 1.1em/normal 'Manrope', sans-serif;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 2.5rem;
+  text-shadow: 0 0 1px currentColor;
+}
+
+.card__subscription__choose {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font: 600 1.3rem/normal 'Manrope', sans-serif;
+  margin-bottom: 3.5rem;
+}
+
+.card__subscription__choose__price {
+  font: 800 3rem/normal 'Manrope', sans-serif;
+  margin-right: 15px;
+  color: var(--Dark-Desaturated-Blue);
+  text-shadow: 0 0 1px var(--Dark-Desaturated-Blue);
+}
+
+.card__info {
+  padding: 2rem;
+}
+
+.membership {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font: 600 2.5ex/normal 'Manrope', sans-serif;
+  margin-bottom: 1rem;
+}
+
+/* Inicio descuento */
+.discount {
+  display: inline-block;
+  background-color: var(--Light-Grayish-Red);
+  color: var(--Light-Red);
+  font-weight: 800;
+  padding: 2px 10px;
+  border-radius: 100px;
+  margin-left: 10px;
+  font-size: .9rem;
+}
+
+/* Fin de descuento */
+.benefits-list__profit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15px;
+}
+
+.benefits-list__profit__icon {
+  height: 12px;
+  width: 15px;
+  display: block;
+  margin-right: 15px;
+}
+
+.benefits-list__profit__paragraph {
+  font: 600 1.1rem/normal 'Manrope', sans-serif;
+  color: var(--Grayish-Blue);
+  letter-spacing: .5px;
+}
+
+:root {
+  /* Primary */
+  --Soft-Cyan: hsl(174, 77%, 80%);
+  --Strong-Cyan: hsl(174, 86%, 45%);
+  --Light-Grayish-Red: hsl(14, 92%, 95%);
+  --Light-Red: hsl(15, 100%, 70%);
+  --Pale-Blue: hsl(226, 100%, 87%);
+  /* Neutral */
+  --White: hsl(0, 0%, 100%);
+  --Very-Pale-Blue: hsl(230, 100%, 99%);
+  --Light-Grayish-BlueSlider: hsl(224, 65%, 95%);
+  --Light-Grayish-Blue: hsl(223, 50%, 87%);
+  --Grayish-Blue: hsl(225, 20%, 60%);
+  --Dark-Desaturated-Blue: hsl(227, 35%, 25%);
+}
+
+/* Slider */
+.slider {
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+.slider__range {
+  width: 100%;
+  height: 12px;
+  border-radius: 15px;
+  -webkit-appearance: none;
+  outline: none;
+  background: -webkit-gradient(linear, left top, right top, from(var(--Soft-Cyan)), color-stop(50%, var(--Soft-Cyan)), color-stop(50%, var(--Light-Grayish-BlueSlider)), to(var(--Light-Grayish-BlueSlider)));
+  background: linear-gradient(to right, var(--Soft-Cyan) 0%, var(--Soft-Cyan) 50%, var(--Light-Grayish-BlueSlider) 50%, var(--Light-Grayish-BlueSlider) 100%);
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.slider__range:active {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
+.slider__range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 4rem;
+  height: 4rem;
+  background: url(../images/icon-slider.svg) no-repeat center/35px;
+  border-radius: 50%;
+  background-color: var(--Strong-Cyan);
+  -webkit-box-shadow: 0 1.5rem 1.5rem var(--Soft-Cyan);
+          box-shadow: 0 1.5rem 1.5rem var(--Soft-Cyan);
+}
+
+/* Fin de slider */
+:root {
+  /* Primary */
+  --Soft-Cyan: hsl(174, 77%, 80%);
+  --Strong-Cyan: hsl(174, 86%, 45%);
+  --Light-Grayish-Red: hsl(14, 92%, 95%);
+  --Light-Red: hsl(15, 100%, 70%);
+  --Pale-Blue: hsl(226, 100%, 87%);
+  /* Neutral */
+  --White: hsl(0, 0%, 100%);
+  --Very-Pale-Blue: hsl(230, 100%, 99%);
+  --Light-Grayish-BlueSlider: hsl(224, 65%, 95%);
+  --Light-Grayish-Blue: hsl(223, 50%, 87%);
+  --Grayish-Blue: hsl(225, 20%, 60%);
+  --Dark-Desaturated-Blue: hsl(227, 35%, 25%);
+}
+
+/* Inicio de Switch */
+.switch {
+  margin: 0 15px;
+}
+
+.switch__checkbox {
+  display: none;
+}
+
+.switch__slider {
+  cursor: pointer;
+  display: block;
+  width: 65px;
+  height: 35px;
+  border-radius: 100px;
+  background-color: var(--Light-Grayish-Blue);
+  position: relative;
+  -webkit-transition: all 100ms ease-in-out;
+  transition: all 100ms ease-in-out;
+}
+
+.switch__slider::after {
+  content: "";
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  -webkit-transition: all 100ms ease-in-out;
+  transition: all 100ms ease-in-out;
+}
+
+.switch__checkbox:checked + .switch__slider::after {
+  left: 38px;
+}
+
+.switch__checkbox:checked + .switch__slider {
+  background-color: var(--Soft-Cyan);
+}
+
+/* Fin de switch */
+:root {
+  /* Primary */
+  --Soft-Cyan: hsl(174, 77%, 80%);
+  --Strong-Cyan: hsl(174, 86%, 45%);
+  --Light-Grayish-Red: hsl(14, 92%, 95%);
+  --Light-Red: hsl(15, 100%, 70%);
+  --Pale-Blue: hsl(226, 100%, 87%);
+  /* Neutral */
+  --White: hsl(0, 0%, 100%);
+  --Very-Pale-Blue: hsl(230, 100%, 99%);
+  --Light-Grayish-BlueSlider: hsl(224, 65%, 95%);
+  --Light-Grayish-Blue: hsl(223, 50%, 87%);
+  --Grayish-Blue: hsl(225, 20%, 60%);
+  --Dark-Desaturated-Blue: hsl(227, 35%, 25%);
+}
+
+/* Header */
+.header {
+  background: url(../images/pattern-circles.svg) no-repeat center/230px;
+  min-height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding: 1rem;
+  max-width: 500px;
+  margin: auto;
+}
+
+.header__title {
+  font: 800 1.9rem/normal 'Manrope', sans-serif;
+  margin-bottom: 20px;
+  color: var(--Dark-Desaturated-Blue);
+  text-shadow: 0 0 1px var(--Dark-Desaturated-Blue);
+}
+
+.header__info {
+  font: 600 1.2rem/35px 'Manrope', sans-serif;
+  padding: 0 3.7rem;
+  color: var(--Grayish-Blue);
+  text-shadow: 0 0 1px var(--Grayish-Blue);
+}
+
+/* Fin de Header */
+:root {
+  /* Primary */
+  --Soft-Cyan: hsl(174, 77%, 80%);
+  --Strong-Cyan: hsl(174, 86%, 45%);
+  --Light-Grayish-Red: hsl(14, 92%, 95%);
+  --Light-Red: hsl(15, 100%, 70%);
+  --Pale-Blue: hsl(226, 100%, 87%);
+  /* Neutral */
+  --White: hsl(0, 0%, 100%);
+  --Very-Pale-Blue: hsl(230, 100%, 99%);
+  --Light-Grayish-BlueSlider: hsl(224, 65%, 95%);
+  --Light-Grayish-Blue: hsl(223, 50%, 87%);
+  --Grayish-Blue: hsl(225, 20%, 60%);
+  --Dark-Desaturated-Blue: hsl(227, 35%, 25%);
+}
+
+/* Inicio de boton */
+.btn-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 3rem;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: var(--Dark-Desaturated-Blue);
+  color: var(--Pale-Blue);
+  font: 800 1.1rem/normal 'Manrope', sans-serif;
+  letter-spacing: 1px;
+  padding: 1.3rem 3rem;
+  border-radius: 100px;
+  -webkit-transition: color .2s ease-in;
+  transition: color .2s ease-in;
+}
+
+.btn:hover {
+  color: #fff;
+}
+
+/* Fin de boton */
+/* Desktop view */
+@media screen and (min-width: 1440px) {
+  .card {
+    max-width: 800px;
+  }
+  .card__subscription {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    row-gap: 1.5rem;
+  }
+  .card__subscription__page {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    margin-bottom: 0;
+  }
+  .card__subscription__choose {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    margin-bottom: 0;
+  }
+  .card__info {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .slider {
+    grid-column: span 2;
+    margin: 0;
+  }
+  .membership {
+    grid-column: span 2;
+  }
+  .discount::after {
+    content: " discount";
+  }
+  .benefits-list__profit {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin: 12px;
+  }
+  .btn-center {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin: 0;
+  }
+  .btn {
+    padding: 1rem 4rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */

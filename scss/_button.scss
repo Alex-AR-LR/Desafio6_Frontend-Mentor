@@ -1,0 +1,24 @@
+// @use 'variables';
+@import 'variables';
+
+/* Inicio de boton */
+.btn-center{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.btn{
+    text-decoration: none;
+    background-color: var(--Dark-Desaturated-Blue);
+    color: var(--Pale-Blue);
+    font: 800 1.1rem/normal 'Manrope', sans-serif;
+    letter-spacing: 1px;
+    padding: 1.3rem 3rem;
+    border-radius: 100px;
+    transition: color .2s ease-in;
+    &:hover{
+        color: #fff;
+    }
+}
+/* Fin de boton */

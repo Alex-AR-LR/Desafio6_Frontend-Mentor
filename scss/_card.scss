@@ -1,0 +1,85 @@
+// @use 'variables';
+@import 'variables';
+
+/* Targeta */
+.card{
+    background-color: #fff;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: auto;
+    &__subscription{
+        border-bottom: 1px solid var(--Light-Grayish-Blue);
+        padding: 2rem;
+        text-align: center;
+        color: var(--Grayish-Blue);
+        &__page{
+            font: 800 1.1em/normal 'Manrope', sans-serif;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            margin-bottom: 2.5rem;
+            text-shadow: 0 0 1px currentColor;
+        }
+        &__choose{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font: 600 1.3rem/normal 'Manrope', sans-serif;
+            margin-bottom: 3.5rem;
+            &__price{
+                font: 800 3rem/normal 'Manrope', sans-serif;
+                margin-right: 15px;
+                color: var(--Dark-Desaturated-Blue);
+                text-shadow: 0 0 1px var(--Dark-Desaturated-Blue);
+            }
+        }
+    }
+
+    &__info{
+        padding: 2rem;
+    }
+}
+
+
+
+.membership{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 600 2.5ex/normal 'Manrope', sans-serif;
+    margin-bottom: 1rem;
+}
+
+
+
+/* Inicio descuento */
+.discount{
+    display: inline-block;
+    background-color: var(--Light-Grayish-Red);
+    color: var(--Light-Red);
+    font-weight: 800;
+    padding: 2px 10px;
+    border-radius: 100px;
+    margin-left: 10px;
+    font-size: .9rem;
+}
+/* Fin de descuento */
+
+.benefits-list{
+    &__profit{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+        &__icon{
+            height: 12px;
+            width: 15px;
+            display: block;
+            margin-right: 15px;
+        }
+        &__paragraph{
+            font: 600 1.1rem/normal 'Manrope', sans-serif;
+            color: var(--Grayish-Blue);
+            letter-spacing: .5px;
+        }
+    }
+}
